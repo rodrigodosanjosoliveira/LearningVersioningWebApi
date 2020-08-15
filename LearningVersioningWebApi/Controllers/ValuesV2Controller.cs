@@ -3,8 +3,8 @@ using System.Collections.Generic;
 
 namespace LearningVersioningWebApi.Controllers
 {
-    [ApiVersion("2")]
-    [Route("api/v{v:apiversion}/Values")]
+    [ApiVersion("2.0")]
+    [Route("api/Values")]
     [ApiController]
     public class ValuesV2Controller : ControllerBase
     {
